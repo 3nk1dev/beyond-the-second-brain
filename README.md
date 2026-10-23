@@ -1,31 +1,41 @@
 # Build a Second Brain You Actually Own
 
-A working guide by David Taxer ([3nk1dev on GitHub](https://github.com/3nk1dev)) to portable knowledge, AI-assisted curation, and human control.
+## One knowledge base across models and years of conversations
 
-**Status:** Public working draft. It contains documentation and neutral templates, not an installable application or the private implementation.
+Use one model to research, another to challenge the answer, and another to help you build. Keep the reviewed result in a knowledge base you own. Recover the useful work from older chats instead of starting from scratch every time the model changes.
 
-## Start here
+A public working guide by [David Taxer](https://github.com/3nk1dev). This repository contains original teaching material and neutral templates. **It is not the author's private vault or its implementation.**
 
-- [Read the guide](GUIDE.md)
-- [Source record template](templates/source-record.md)
-- [Knowledge note template](templates/knowledge-note.md)
-- [Project handoff template](templates/project-handoff.md)
-- [Sync verification receipt](templates/sync-verification.md)
-- [Publication checklist](PUBLICATION_CHECKLIST.md)
+## What makes this different
 
-## The approach
+- **One durable record across providers.** Models contribute to shared sources, knowledge, decisions, and open loops rather than separate memory silos.
+- **Old conversations become useful again.** Recover user corrections and unfinished work. Reassess weak model answers against evidence without rewriting history.
+- **Better context can travel back to older models.** Supply the reviewed result to the next task. This changes the information available, not model weights or native memory.
+- **The way you work travels too.** A portable collaboration profile carries approved preferences, reasoning practices, and permission boundaries.
+- **Shared knowledge, bounded project views.** Reuse methods without handing every model your entire personal archive.
+- **Evidence before confidence.** Saving, believing, deciding, and publishing are separate actions. Verify each one at the right boundary.
 
-Keep durable knowledge in Markdown. Use Obsidian as an optional reading and editing interface and private Git history for revisions. Preserve evidence, separate research from accepted conclusions, and verify each delivery boundary. Carry useful context between models without treating any chatbot as the owner of your memory.
+The models are interchangeable collaborators. The reviewed knowledge and the way we work stay with us.
 
-The guide distinguishes documented implementation, historical acceptance, and proposed teaching examples. It does not promise automatic access to every chat, a complete asset archive, or an always-on knowledge agent.
+## Read and try
 
-## What is included
+1. [Read the guide](GUIDE.md), including fictional multi-model and legacy-chat recovery examples.
+2. Choose one project and one permitted source, not your entire account archive.
+3. Make a [source record](templates/source-record.md), a [knowledge note](templates/knowledge-note.md), and a [project handoff](templates/project-handoff.md).
+4. Prepare a [collaboration profile](templates/collaboration-profile.md) and a [bounded context pack](templates/context-pack.md).
+5. Try the pack in a fresh session. Check the answer against the source and constraints before accepting changes.
+6. For old material, use the [legacy chat review ledger](templates/legacy-chat-review.md).
+7. Record what actually arrived using the [sync verification receipt](templates/sync-verification.md).
 
-The templates are deliberately generic. Replace placeholders before using them. They are teaching aids, not valid input for an unspecified ingestion program. No private repository address, implementation source code, or personal vault content is included.
+## Scope and limits
 
-## Privacy
+The guide describes a model-assisted workflow informed by documented multi-provider import and selective recovery. It distinguishes that implementation history from fictional examples and proposed teaching templates. No private source code, original exports, personal notes, or private repository links are included.
 
-Keep private thinking and public publishing in separate destinations. Review every exported file and all repository history before changing visibility. Do not use this repository to upload personal account archives, credentials, or client material.
+This is not an installable app, automatic access to every chat, a native-memory sync service, or a benchmarked claim that every model will perform better. Models need the relevant context and authorized access. Originals may remain external; omissions must stay explicit.
+
+## Privacy and publication
+
+Keep personal knowledge in a separate private store. Publish only reviewed teaching material. Never copy a real vault or its Git history into this repository. Use the [publication checklist](PUBLICATION_CHECKLIST.md) before sharing changes.
 
 ## License and reuse
 

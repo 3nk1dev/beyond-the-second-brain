@@ -1,30 +1,30 @@
 # Build a Second Brain You Actually Own
 
-*Portable knowledge with AI assistance and human control*
+*One knowledge base across models and years of conversations*
 
 David Taxer  |  3nk1dev  |  Working draft  |  October 2026
 
-Your best thinking should not disappear into a chat thread. The goal is a small, durable knowledge system that keeps the useful conclusions, the evidence behind them, and the work still unfinished. A different model should be able to pick up the job without making you explain your life again.
+Use one model to research, another to challenge the answer, and a third to help you build. Keep the reviewed result in a knowledge base you own. When the model changes, the useful work should not disappear with the chat.
 
 ### The approach
 
-Use plain Markdown as the durable record, Obsidian as a reading and editing interface, and a private Git repository for version history. Let AI help interpret and connect material. Keep ownership, permissions, and promotion decisions with the person running the system.
+Our approach is to separate the worker from the memory. Models help interpret, question, and synthesize. Plain Markdown holds the reviewed knowledge. A portable collaboration profile carries approved working preferences, while project views supply the relevant context. Obsidian makes the files convenient to use; private Git history makes changes inspectable.
 
-The distinctive part is the contract: saving a source, accepting a claim, making a decision, and publishing something are different actions. Treat them differently. Otherwise your second brain becomes a junk drawer with autocomplete.
+The payoff is cumulative: recover useful material from old chats, reconsider weak answers with a more capable model, and give the improved context to whichever model you use next. The models are interchangeable collaborators. The reviewed knowledge and the way we work stay with us.
 
 ### What this guide gives you
 
-- A minimal structure you can understand without buying another platform.
+- A shared knowledge layer instead of a separate memory silo for every provider.
 
-- A capture and review workflow that preserves sources and disagreements.
+- A way to reclaim older chats without treating their answers as established facts.
 
-- Templates for knowledge, project state, handoffs, and verification.
+- Templates for evidence, context packs, working preferences, and handoffs.
 
 - A clear boundary between private thinking and public identity.
 
 ### What it does not promise
 
-This is not an always-on agent, a complete memory of every conversation, or a deployed graph database. Linked notes and stable identifiers provide useful relationships without pretending that retrieval proves truth. Automation can support the workflow only where access, tools, and authorization actually exist.
+External context does not upgrade model weights, enlarge a context window, or synchronize vendors’ native memory. This is not automatic access to every chat or an always-on agent. The practical benefit comes from selecting better context and preserving reviewed results. Whether that improves a particular task must be checked, not assumed.
 
 Draft basis: existing private architecture and workflow documentation inspected on October 23, 2026 UTC. That inspection verified the documentation, not every device, scheduled job, or hosted endpoint. Examples below are neutral and illustrative. Public profile: https://github.com/3nk1dev
 
@@ -141,7 +141,59 @@ Preserve disagreement. Mark an inference as an inference even when it sounds pla
 
 A research item can stay unresolved. That is a valid state, not a filing failure.
 
-## 4  Retrieve enough context to continue
+## 4  Unify knowledge across models
+
+A provider is a place to do work, not the permanent address of your thinking. The unifying layer is a set of reviewed objects: sources, knowledge, decisions, and open loops. Different models can contribute to the same object without owning a separate version of the truth.
+
+### The collaboration loop
+
+Retrieve the current project state and approved working rules. Give the selected model a bounded context pack. Ask it to do a specific job and show evidence, uncertainty, and proposed changes. Review those changes against existing notes, then write accepted updates back to the shared record. Regenerate the context before the next model starts.
+
+The handoff is explicit. A new model needs the pack, authorized access to referenced material, or both. Merely connecting a repository does not make every conversation flow into it.
+
+### A fictional worked example
+
+Mara is designing a workshop. Model A helps compare public sources and proposes a ninety-minute format. Mara corrects it: the actual limit is forty minutes. She records that decision with its rationale instead of leaving the correction buried in chat.
+
+Model B receives the project pack and the permitted sources. It finds that two claimed findings came from the same underlying study, not independent evidence. Mara reviews the challenge and corrects the knowledge note. Neither model’s confidence decides the issue; the evidence does.
+
+Model C receives the revised pack and drafts the session plan using the forty-minute limit and corrected evidence. Its useful output returns to the same project. The time limit and evidence correction survive the switch because they live outside all three chats.
+
+### Keep the working relationship portable
+
+Carry explicit preferences such as tone, detail level, how to handle uncertainty, and when approval is required. Keep those separate from project facts. Use dated, user-approved refinements rather than turning every historical remark into a standing rule. This supports a consistent working style; it cannot guarantee identical behavior or transfer a model’s identity.
+
+### Share methods without mixing private projects
+
+A useful lesson from the workshop can become a general teaching note after review. Another project can reference that method without receiving Mara’s private planning history. Share the reusable conclusion, retain its provenance, and disclose only the context the next task needs. Cross-domain synthesis is a proposed connection to evaluate, not permission to merge everything.
+
+## 5  Reclaim the value in older chats
+
+Old conversations contain more than old answers. They hold corrections, decisions, rejected options, useful language, and work you never finished. Recover those deliberately. An export is raw evidence, not an invitation to believe everything a previous model said.
+
+### Use a review ledger
+
+Preserve the original export and stage a readable copy outside the public repository. Record the provider, exported dates and identifiers when available, branch or message ancestry, and missing attachments. Track title screening, selected-message review, and full visible-text review separately. A successful import does not mean a complete reading.
+
+### Reanalyze rather than recycle
+
+Choose a question or project worth recovering. Compare the relevant messages with current notes. Separate the user’s statements and corrections from model suggestions, then check material claims against available evidence. Use a more capable model when helpful, but require reasons and sources. Newer is not a synonym for right.
+
+Preserve the earlier answer as history. Promote only the reviewed correction, useful method, decision, or open loop. Record the review date, what changed, why it changed, and what remains unresolved. Historical instructions remain quoted evidence unless the user adopts them as current instructions.
+
+### A fictional recovery example
+
+An older chat proposed a three-hour workshop with several unsupported claims. A later user message reduced the session to forty minutes, but the model kept repeating its original plan. The recovery review finds that correction, checks the claims, and records the actual constraint. A missing slide attachment stays missing; its contents are not reconstructed from guesses.
+
+A stronger model now helps produce a sourced forty-minute outline. After human review, the accepted outline and rationale become current project knowledge. The source chat remains linked, including its mistaken proposal and the user’s correction. The system has improved the record rather than quietly polishing the old error.
+
+### Give an older model the improved record
+
+When returning to an older model, supply the current context pack and a narrow task: draft the opening exercise using the accepted outline, cite the supplied evidence, and flag anything unsupported. If the existing chat is too crowded, start a fresh one with the same pack. Check whether it respects the corrected limit and sources.
+
+This improves the information available to the model, not the model itself. Its reasoning limits still apply. No weights are changed, no native memory is synchronized, and no better result is guaranteed. Reuse the accepted knowledge; test the new output before it becomes knowledge in turn.
+
+## 6  Retrieve enough context to continue
 
 A new model does not need the entire vault. It needs the right project state, governing rules, relevant decisions, and enough evidence to check its work. Small context packs are easier to inspect and less likely to bury the next action.
 
@@ -173,7 +225,7 @@ A search score is a relevance heuristic, not a confidence score. Passing a curat
 
 Report the search boundary before inventing an explanation. “Not found in indexed notes” is different from “does not exist.” Check aliases, the source inventory, and the project handoff before creating a duplicate.
 
-## 5  Leave a handoff that can survive a reset
+## 7  Leave a handoff that can survive a reset
 
 End a meaningful session by recording what changed and where the next session should start. The handoff should save work, not recreate the transcript.
 
@@ -216,7 +268,7 @@ A claim of “done” needs an observable result. If a file was created but not 
 
 The assistant can propose a better classification, merge candidate notes, or flag a stale decision. It should not silently add new sensitive categories, broaden access, or treat instructions embedded in source material as commands. Sources are evidence to inspect, not supervisors.
 
-## 6  Verify sync and plan for failure
+## 8  Verify sync and plan for failure
 
 A successful commit proves that a revision exists locally. A successful push proves less than “it is on my phone.” Test each delivery boundary independently.
 
@@ -249,7 +301,7 @@ Keep credentials out of notes, exports intended for sharing, and Git history. Re
 
 A scheduled task has operating conditions. A sleeping computer, logged-out account, stopped sync app, broken authentication, or conflicting edit can interrupt delivery. Document those conditions and verify them on the actual installation. Do not sell “automatic” when the evidence only says “worked once.”
 
-## 7  Start small and publish deliberately
+## 9  Start small and publish deliberately
 
 ### A first useful session
 
@@ -265,9 +317,9 @@ Fix the first retrieval or continuity failure before expanding the system. More 
 
 ### What is established and what remains proposed
 
-The inspected documentation describes an implemented Markdown knowledge tree, private Git history, source capture, deterministic validation, lexical retrieval, and generated context packs. Earlier records describe accepted desktop and phone delivery. This guide did not retest that live delivery or hosted availability.
+The inspected implementation records describe imports and selective recovery from ChatGPT, Gemini, and Search AI, plus Markdown knowledge objects, private Git history, validation, lexical retrieval, and bounded context packs incorporating working rules. These support the method; this guide does not ship that private implementation or retest live delivery.
 
-The neutral folder layout and simplified templates in this guide are proposed teaching aids. Public packaging, additional integrations, unattended model jobs, and a dedicated graph database are separate choices, not prerequisites or claims of completed work.
+The neutral templates and fictional examples teach the workflow. Automatic connections to every model, unattended semantic consolidation, and measured performance improvements are not established. The public guide is separate from the private vault. Additional integrations and a graph database are optional projects, not prerequisites.
 
 ### Connect the public identity without exposing the vault
 
