@@ -1,12 +1,26 @@
-# Build a Second Brain You Actually Own
+# Beyond the Second Brain: Cross-LLM Knowledge & Memory
 
-## One knowledge base across models and years of conversations
+## A Model-Independent Knowledge and Continuity System
 
-Use one model to research, another to challenge the answer, and another to help you build. Keep the reviewed result in a knowledge base you own. Recover the useful work from older chats instead of starting from scratch every time the model changes.
+Build a model-independent knowledge system with Markdown, reviewed sources, and portable context. The approach connects useful work across LLMs, recovers older chats, and carries approved working preferences between sessions without pretending to synchronize native model memory.
 
 A public working guide by [David Taxer](https://github.com/3nk1dev). This repository contains original teaching material and neutral templates. **It is not the author's private vault or its implementation.**
 
-## What makes this different
+## Implementation status
+
+**Documented and historically tested:** The underlying private implementation has recorded checks for source preservation, structured updates, validation, retrieval, context generation, and selected device delivery. Its records also describe selective recovery from multiple providers. These are dated implementation records, not a fresh end-to-end test of this public guide.
+
+**Proposed and illustrative:** The fictional multi-model workflows, teaching templates, and broader continuity design describe how the approach can be used. They have not been validated as one complete, generally reliable system. No comparative benchmark establishes superiority over other designs or consistent gains for older models.
+
+**Public scope:** This repository provides a guide, not an installable implementation. The private vault, its contents, code, and history remain separate. Check actual tool access and delivery for each use.
+
+## Influence and our emphasis
+
+Andrej Karpathy’s [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) is an important influence. It already describes preserved original sources, a linked Markdown knowledge layer, structural instructions, ingestion and query workflows, maintenance checks, Git, Obsidian, and accumulating useful synthesis. We do not claim to have invented those foundations.
+
+This guide emphasizes reconciliation across providers, recovery of older conversations, portable working preferences, bounded context handoffs, and verification of delivery. That is a broader continuity focus, not evidence that this design is objectively better or more robust. Use the parts that solve your actual problem.
+
+## Cross-LLM knowledge and memory workflows
 
 - **One durable record across providers.** Models contribute to shared sources, knowledge, decisions, and open loops rather than separate memory silos.
 - **Old conversations become useful again.** Recover user corrections and unfinished work. Reassess weak model answers against evidence without rewriting history.

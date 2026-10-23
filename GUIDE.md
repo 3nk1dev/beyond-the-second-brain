@@ -1,10 +1,24 @@
-# Build a Second Brain You Actually Own
+# Beyond the Second Brain: Cross-LLM Knowledge & Memory
 
-*One knowledge base across models and years of conversations*
+*A Model-Independent Knowledge and Continuity System*
 
-David Taxer  |  3nk1dev  |  Working draft  |  October 2026
+[David Taxer](https://github.com/3nk1dev)  |  Working draft  |  October 2026
 
 Use one model to research, another to challenge the answer, and a third to help you build. Keep the reviewed result in a knowledge base you own. When the model changes, the useful work should not disappear with the chat.
+
+### Implementation status
+
+**Documented and historically tested:** The underlying private implementation has recorded checks for source preservation, structured updates, validation, retrieval, context generation, and selected device delivery. Its records also describe selective recovery from multiple providers. These are dated implementation records, not a fresh end-to-end test of this public guide.
+
+**Proposed and illustrative:** The fictional multi-model workflows, teaching templates, and broader continuity design describe how the approach can be used. They have not been validated as one complete, generally reliable system. No comparative benchmark establishes superiority over other designs or consistent gains for older models.
+
+**Public scope:** This repository provides a guide, not an installable implementation. The private vault, its contents, code, and history remain separate. Check actual tool access and delivery for each use.
+
+### Influence and our emphasis
+
+Andrej Karpathy’s [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) is an important influence. It already describes preserved original sources, a linked Markdown knowledge layer, structural instructions, ingestion and query workflows, maintenance checks, Git, Obsidian, and accumulating useful synthesis. We do not claim to have invented those foundations.
+
+This guide emphasizes reconciliation across providers, recovery of older conversations, portable working preferences, bounded context handoffs, and verification of delivery. That is a broader continuity focus, not evidence that this design is objectively better or more robust. Use the parts that solve your actual problem.
 
 ### The approach
 
