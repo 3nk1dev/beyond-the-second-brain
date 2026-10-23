@@ -4,7 +4,7 @@
 
 Build a model-independent knowledge system with Markdown, reviewed sources, and portable context. The approach connects useful work across LLMs, recovers older chats, and carries approved working preferences between sessions without pretending to synchronize native model memory.
 
-A public working guide by [David Taxer](https://github.com/3nk1dev). This repository contains original teaching material and neutral templates. **It is not the author's private vault or its implementation.**
+A public working guide by [David Taxer](https://github.com/3nk1dev) · [Personal website](https://davidtaxer.com/). This repository contains original teaching material and neutral templates. **It is not the author's private vault or its implementation.**
 
 ## Implementation status
 

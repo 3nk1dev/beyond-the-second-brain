@@ -2,7 +2,7 @@
 
 *A Model-Independent Knowledge and Continuity System*
 
-[David Taxer](https://github.com/3nk1dev)  |  Working draft  |  October 2026
+[David Taxer](https://github.com/3nk1dev)  |  [Personal website](https://davidtaxer.com/)  |  Working draft  |  October 2026
 
 Use one model to research, another to challenge the answer, and a third to help you build. Keep the reviewed result in a knowledge base you own. When the model changes, the useful work should not disappear with the chat.
 
